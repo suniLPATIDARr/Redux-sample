@@ -38,8 +38,7 @@ class App extends Component {
 const mapStateToProps = (state) => {
   return {
     age: state.age,
-    history: state.history,
-    loading: state.loading,
+    loading: state.loading
   };
 };
 
